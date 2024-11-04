@@ -67,7 +67,6 @@ describe('Ui Addition - Component', () => {
     expect(component.operator2).toEqual(2.71);
   });
 
-
   it('should add operator1 and operator2 when i click the addition button ', () => {
     // Arrange 
     component.operator1 = 5.0;
@@ -100,4 +99,3 @@ describe('Ui Addition - Component', () => {
   });
 
 });
-
